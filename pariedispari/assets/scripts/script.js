@@ -3,3 +3,27 @@
 // Sommiamo i due numeri
 // Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 // Dichiariamo chi ha vinto.
+
+function Random(num, type){
+    let cpu = Math.ceil(Math.random()*5);
+    console.log(num);
+    console.log(cpu);
+    if(type == "even"){
+        console.log("even")
+    }
+    else{
+        console.log("odd")
+    }
+}
+
+let num = Number(document.getElementById("num").value);
+let even = document.getElementById("even");
+let odd = document.getElementById("odd");
+
+even.addEventListener("click", () => {
+    Random(num, "even");
+})
+
+odd.addEventListener("click", () => {
+    Random(num, "odd");
+})

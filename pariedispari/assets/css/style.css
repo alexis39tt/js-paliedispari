@@ -6,10 +6,43 @@
 
 html{
     font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
 }
 
 body{
     background-color: rgb(15, 15, 15);
     padding: 100px 0;
     text-align: center;
+    color: rgb(173, 173, 173);
+}
+
+input{
+    background: none;
+    border: 5px solid rgb(173, 173, 173);
+    font-size: 2rem;
+    margin: 0px 7px 50px;
+    padding: 5px;
+    outline: none;
+    text-align: center;
+    color: rgb(173, 173, 173);
+}
+
+input[type=number]{
+    margin: 0px 50px 50px;
+    width: 120px;
+}
+
+input[type=button]:hover{
+    background-color: rgb(29, 29, 29);
+    color: rgb(209, 209, 209);
+    cursor: pointer;
+}
+
+p{
+    font-size: 2rem;
+    color: red;
+}
+
+span{
+    color: green;
 }
