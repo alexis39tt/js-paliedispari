@@ -38,11 +38,15 @@ input[type=button]:hover{
     cursor: pointer;
 }
 
-p{
+p, span{
     font-size: 2rem;
-    color: red;
+    color: rgb(209, 209, 209);
 }
 
-span{
+span.v{
     color: green;
+}
+
+span.p{
+    color: red;
 }
