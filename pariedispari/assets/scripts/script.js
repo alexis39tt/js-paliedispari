@@ -1,8 +1,4 @@
-// L’utente sceglie pari o dispari e inserisce un numero da 1 a 5.
-// Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzione).
-// Sommiamo i due numeri
-// Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
-// Dichiariamo chi ha vinto.
+// FUNCTIONS
 
 function RandomNumber(){
     let x = Math.ceil(Math.random()*5);
@@ -41,10 +37,14 @@ function Buttons(type, sum){
     }
 }
 
+// MAIN VARIABLES AND CONSTANTS
+
 const container = [document.getElementById("container1"), document.getElementById("container2"), document.getElementById("container3"), document.getElementById("container4")];
+const pari = document.getElementById("even");
+const dispari = document.getElementById("odd");
 let type;
-let pari = document.getElementById("even");
-let dispari = document.getElementById("odd");
+
+// EVENT LISTENERS
 
 pari.addEventListener("click", () => {
     let num = UserNum();
