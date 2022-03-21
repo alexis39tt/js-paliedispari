@@ -24,7 +24,7 @@ function Buttons(type, sum){
             container[3].innerHTML = `<span class="v">La somma è pari. Hai vinto!</span>`
         }
         else{
-            container[3].innerHTML = `<span class="p">La somma è dispari. Hai perso!</span>`
+            container[3].innerHTML = `<span class="p">La somma è pari. Hai perso!</span>`
         }
     }
     else{
@@ -32,7 +32,7 @@ function Buttons(type, sum){
             container[3].innerHTML = `<span class="v">La somma è dispari. Hai vinto!</span>`
         }
         else{
-            container[3].innerHTML = `<span class="p">La somma è pari. Hai perso!</span>`
+            container[3].innerHTML = `<span class="p">La somma è dispari. Hai perso!</span>`
         }
     }
 }
